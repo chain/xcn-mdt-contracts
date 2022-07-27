@@ -1,0 +1,851 @@
+{
+  "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "mdtFoundationAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenSaleAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TEAM_TOKENS_RESERVED",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "userGrowthAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "mdtTeamAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        },
+        {
+          "name": "_data",
+          "type": "bytes"
+        }
+      ],
+      "name": "transferAndCall",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_mdtFoundationAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeMdtFoundationAddress",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "USER_GROWTH_TOKENS_RESERVED",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "INVESTORS_TOKENS_RESERVED",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_investorsAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeInvestorsAddress",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burnFrom",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_tokenSaleAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeTokenSaleAddress",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_userGrowthAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeUserGrowthAddress",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "investorsAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_mdtTeamAddress",
+          "type": "address"
+        }
+      ],
+      "name": "changeMdtTeamAddress",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maxSupply",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "emergencyERC20Drain",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "name": "_spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "name": "remaining",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "BONUS_TOKENS_RESERVED",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_tokenSaleAddress",
+          "type": "address"
+        },
+        {
+          "name": "_mdtTeamAddress",
+          "type": "address"
+        },
+        {
+          "name": "_userGrowthAddress",
+          "type": "address"
+        },
+        {
+          "name": "_investorsAddress",
+          "type": "address"
+        },
+        {
+          "name": "_mdtFoundationAddress",
+          "type": "address"
+        },
+        {
+          "name": "_presaleAmount",
+          "type": "uint256"
+        },
+        {
+          "name": "_earlybirdAmount",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_burner",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Burn",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "_data",
+          "type": "bytes"
+        }
+      ],
+      "name": "ERC677Transfer",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Approval",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    }
+  ],
+  "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+  "receipt": {
+    "to": null,
+    "from": "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "contractAddress": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+    "transactionIndex": 8,
+    "gasUsed": "1633000",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000200000000000000000000000000000000000000000000000000000000000400000000000000800000000000000000000000000000000000000000000000000000000000000002000000000000000000000000002000000000000000000000000420000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0",
+    "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+    "logs": [
+      {
+        "transactionIndex": 8,
+        "blockNumber": 11097126,
+        "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+        "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a36bc4cb270b08951469333c1ded09e07ae0b098"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a570122523753185400000",
+        "logIndex": 9,
+        "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0"
+      },
+      {
+        "transactionIndex": 8,
+        "blockNumber": 11097126,
+        "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+        "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a36bc4cb270b08951469333c1ded09e07ae0b098"
+        ],
+        "data": "0x000000000000000000000000000000000000000000c685fa11e01ec6f0000000",
+        "logIndex": 10,
+        "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0"
+      },
+      {
+        "transactionIndex": 8,
+        "blockNumber": 11097126,
+        "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+        "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a36bc4cb270b08951469333c1ded09e07ae0b098"
+        ],
+        "data": "0x0000000000000000000000000000000000000000007c13bc4b2c133c56000000",
+        "logIndex": 11,
+        "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0"
+      },
+      {
+        "transactionIndex": 8,
+        "blockNumber": 11097126,
+        "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+        "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a36bc4cb270b08951469333c1ded09e07ae0b098"
+        ],
+        "data": "0x0000000000000000000000000000000000000000005afd67f2dc0e1b2e000000",
+        "logIndex": 12,
+        "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0"
+      },
+      {
+        "transactionIndex": 8,
+        "blockNumber": 11097126,
+        "transactionHash": "0xa089dc090917b7b794967c7264ae8cfcb3089204c37a4eaf5eb15681dec7e974",
+        "address": "0xD70415DA29074539643b91d08d00608411Ef9e38",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a36bc4cb270b08951469333c1ded09e07ae0b098"
+        ],
+        "data": "0x000000000000000000000000000000000000000000f8270c2ac4caeceec00000",
+        "logIndex": 13,
+        "blockHash": "0x8e4efeb4b81def807cc3e3250abbcfc40131385627c87b083ca12be7aee5d5e0"
+      }
+    ],
+    "blockNumber": 11097126,
+    "cumulativeGasUsed": "6421964",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "0xa36bC4cB270B08951469333C1dEd09e07aE0b098",
+    "1000000000000000000000",
+    "1000000000000000000000"
+  ],
+  "solcInputHash": "2094489eb563e0300e84e54485bb47c9",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.18+commit.9cf6e910\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"mdtFoundationAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_spender\",\"type\":\"address\"},{\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"tokenSaleAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_from\",\"type\":\"address\"},{\"name\":\"_to\",\"type\":\"address\"},{\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"TEAM_TOKENS_RESERVED\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"userGrowthAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"mdtTeamAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_to\",\"type\":\"address\"},{\"name\":\"_value\",\"type\":\"uint256\"},{\"name\":\"_data\",\"type\":\"bytes\"}],\"name\":\"transferAndCall\",\"outputs\":[{\"name\":\"success\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_mdtFoundationAddress\",\"type\":\"address\"}],\"name\":\"changeMdtFoundationAddress\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"USER_GROWTH_TOKENS_RESERVED\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"INVESTORS_TOKENS_RESERVED\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_investorsAddress\",\"type\":\"address\"}],\"name\":\"changeInvestorsAddress\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"balance\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_from\",\"type\":\"address\"},{\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"burnFrom\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_tokenSaleAddress\",\"type\":\"address\"}],\"name\":\"changeTokenSaleAddress\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_userGrowthAddress\",\"type\":\"address\"}],\"name\":\"changeUserGrowthAddress\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_to\",\"type\":\"address\"},{\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"investorsAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_mdtTeamAddress\",\"type\":\"address\"}],\"name\":\"changeMdtTeamAddress\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"maxSupply\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"token\",\"type\":\"address\"},{\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"emergencyERC20Drain\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_owner\",\"type\":\"address\"},{\"name\":\"_spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"name\":\"remaining\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"BONUS_TOKENS_RESERVED\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_tokenSaleAddress\",\"type\":\"address\"},{\"name\":\"_mdtTeamAddress\",\"type\":\"address\"},{\"name\":\"_userGrowthAddress\",\"type\":\"address\"},{\"name\":\"_investorsAddress\",\"type\":\"address\"},{\"name\":\"_mdtFoundationAddress\",\"type\":\"address\"},{\"name\":\"_presaleAmount\",\"type\":\"uint256\"},{\"name\":\"_earlybirdAmount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"_burner\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"Burn\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"_value\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"_data\",\"type\":\"bytes\"}],\"name\":\"ERC677Transfer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"_owner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"_spender\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"allowance(address,address)\":{\"details\":\"Function to check the amount of tokens that an owner allowed to a spender.\",\"params\":{\"_owner\":\"address The address which owns the funds.\",\"_spender\":\"address The address which will spend the funds.\"},\"return\":\"A uint256 specifing the amount of tokens still avaible for the spender.\"},\"approve(address,uint256)\":{\"details\":\"Aprove the passed address to spend the specified amount of tokens on behalf of msg.sender.\",\"params\":{\"_spender\":\"address The address which will spend the funds.\",\"_value\":\"uint256 The amount of tokens to be spent.\"}},\"balanceOf(address)\":{\"details\":\"Gets the balance of the specified address.\",\"params\":{\"_owner\":\"address The address to query the the balance of.\"},\"return\":\"An uint256 representing the amount owned by the passed address.\"},\"burn(uint256)\":{\"details\":\"Burn tokens. (token owner only)\",\"params\":{\"_value\":\"uint256 The amount to be burned.\"},\"return\":\"always true.\"},\"burnFrom(address,uint256)\":{\"details\":\"Burn tokens on behalf of someone. (token owner only)\",\"params\":{\"_from\":\"address The address of the owner of the token.\",\"_value\":\"uint256 The amount to be burned.\"},\"return\":\"always true.\"},\"changeInvestorsAddress(address)\":{\"details\":\"Change to a new investors address. (token owner only)\",\"params\":{\"_investorsAddress\":\"address The new investors address.\"}},\"changeMdtFoundationAddress(address)\":{\"details\":\"Change to a new MDT Foundation address. (token owner only)\",\"params\":{\"_mdtFoundationAddress\":\"address The new MDT Foundation address.\"}},\"changeMdtTeamAddress(address)\":{\"details\":\"Change to a new MDT team address. (token owner only)\",\"params\":{\"_mdtTeamAddress\":\"address The new MDT team address.\"}},\"changeTokenSaleAddress(address)\":{\"details\":\"Change to a new token sale address. (token owner only)\",\"params\":{\"_tokenSaleAddress\":\"address The new token sale address.\"}},\"changeUserGrowthAddress(address)\":{\"details\":\"Change to a new user growth address. (token owner only)\",\"params\":{\"_userGrowthAddress\":\"address The new user growth address.\"}},\"emergencyERC20Drain(address,uint256)\":{\"details\":\"Transfer to owner any tokens send by mistake to this contract. (token owner only)\",\"params\":{\"amount\":\"uint256 The amount to be transfered.\",\"token\":\"ERC20 The address of the token to transfer.\"}},\"transfer(address,uint256)\":{\"details\":\"Transfer token for a specified address.\",\"params\":{\"_to\":\"address The address to transfer to.\",\"_value\":\"uint256 The amount to be transferred.\"}},\"transferAndCall(address,uint256,bytes)\":{\"details\":\"Transfer token to a contract address with additional data if the recipient is a contact.\",\"params\":{\"_data\":\"bytes The extra data to be passed to the receiving contract.\",\"_to\":\"address The address to transfer to.\",\"_value\":\"uint256 The amount to be transferred.\"}},\"transferFrom(address,address,uint256)\":{\"details\":\"Transfer tokens from one address to another.\",\"params\":{\"_from\":\"address The address which you want to send tokens from.\",\"_to\":\"address The address which you want to transfer to.\",\"_value\":\"uint256 the amout of tokens to be transfered.\"}},\"transferOwnership(address)\":{\"details\":\"Allows the current owner to transfer control of the contract to a newOwner.\",\"params\":{\"newOwner\":\"The address to transfer ownership to.\"}}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/mocks/MDToken.sol\":\"MDToken\"},\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":5000},\"remappings\":[]},\"sources\":{\"contracts/mocks/MDToken.sol\":{\"content\":\"/**\\n *Submitted for verification at Etherscan.io on 2017-12-29\\n*/\\n\\npragma solidity ^0.4.18;\\n\\nlibrary SafeMath {\\n  function mul(uint256 a, uint256 b) internal pure returns (uint256) {\\n    uint256 c = a * b;\\n    assert(a == 0 || c / a == b);\\n    return c;\\n  }\\n\\n  function div(uint256 a, uint256 b) internal pure returns (uint256) {\\n    // assert(b > 0); // Solidity automatically throws when dividing by 0\\n    uint256 c = a / b;\\n    // assert(a == b * c + a % b); // There is no case in which this doesn't hold\\n    return c;\\n  }\\n\\n  function sub(uint256 a, uint256 b) internal pure returns (uint256) {\\n    assert(b <= a);\\n    return a - b;\\n  }\\n\\n  function add(uint256 a, uint256 b) internal pure returns (uint256) {\\n    uint256 c = a + b;\\n    assert(c >= a);\\n    return c;\\n  }\\n\\n  function max64(uint64 a, uint64 b) internal pure returns (uint64) {\\n        return a >= b ? a : b;\\n    }\\n\\n  function min64(uint64 a, uint64 b) internal pure returns (uint64) {\\n      return a < b ? a : b;\\n  }\\n\\n  function max256(uint256 a, uint256 b) internal pure returns (uint256) {\\n      return a >= b ? a : b;\\n  }\\n\\n  function min256(uint256 a, uint256 b) internal pure returns (uint256) {\\n      return a < b ? a : b;\\n  }\\n}\\n\\ncontract Ownable {\\n  address public owner;\\n\\n  event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n  /**\\n   * @dev The Ownable constructor sets the original `owner` of the contract to the sender\\n   * account.\\n   */\\n  function Ownable() public {\\n    owner = msg.sender;\\n  }\\n\\n  /**\\n   * @dev Throws if called by any account other than the owner.\\n   */\\n  modifier onlyOwner() {\\n    require(msg.sender == owner);\\n    _;\\n  }\\n\\n  /**\\n   * @dev Allows the current owner to transfer control of the contract to a newOwner.\\n   * @param newOwner The address to transfer ownership to.\\n   */\\n  function transferOwnership(address newOwner) public onlyOwner {\\n    require(newOwner != address(0));\\n    owner = newOwner;\\n    OwnershipTransferred(owner, newOwner);\\n  }\\n\\n}\\n\\ncontract ERC20Basic {\\n    uint256 public totalSupply;\\n    function balanceOf(address _owner) public constant returns (uint256 balance);\\n    function transfer(address _to, uint256 _value) public returns (bool success);\\n    event Transfer(address indexed _from, address indexed _to, uint256 _value);\\n}\\n\\ncontract BasicToken is ERC20Basic {\\n    using SafeMath for uint256;\\n\\n    mapping(address => uint256) balances;\\n\\n    /**\\n    * @dev Transfer token for a specified address.\\n    * @param _to address The address to transfer to.\\n    * @param _value uint256 The amount to be transferred.\\n    */\\n    function transfer(address _to, uint256 _value) public returns (bool) {\\n        require(_to != address(0));\\n\\n        // SafeMath.sub will throw if there is not enough balance.\\n        balances[msg.sender] = balances[msg.sender].sub(_value);\\n        balances[_to] = balances[_to].add(_value);\\n        Transfer(msg.sender, _to, _value);\\n        return true;\\n    }\\n\\n    /**\\n    * @dev Gets the balance of the specified address.\\n    * @param _owner address The address to query the the balance of.\\n    * @return An uint256 representing the amount owned by the passed address.\\n    */\\n    function balanceOf(address _owner) public constant returns (uint256 balance) {\\n        return balances[_owner];\\n    }\\n\\n}\\n\\ncontract ERC20 is ERC20Basic {\\n    function allowance(address _owner, address _spender) public constant returns (uint256 remaining);\\n    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success);\\n    function approve(address _spender, uint256 _value) public returns (bool success);\\n    event Approval(address indexed _owner, address indexed _spender, uint256 _value);\\n}\\n\\ncontract ERC677 is ERC20 {\\n    function transferAndCall(address _to, uint256 _value, bytes _data) public returns (bool success);\\n    \\n    event ERC677Transfer(address indexed _from, address indexed _to, uint256 _value, bytes _data);\\n}\\n\\ncontract ERC677Receiver {\\n    function onTokenTransfer(address _sender, uint _value, bytes _data) public returns (bool success);\\n}\\n\\ncontract ERC677Token is ERC677 {\\n\\n    /**\\n    * @dev Transfer token to a contract address with additional data if the recipient is a contact.\\n    * @param _to address The address to transfer to.\\n    * @param _value uint256 The amount to be transferred.\\n    * @param _data bytes The extra data to be passed to the receiving contract.\\n    */\\n    function transferAndCall(address _to, uint256 _value, bytes _data) public returns (bool success) {\\n        require(super.transfer(_to, _value));\\n        ERC677Transfer(msg.sender, _to, _value, _data);\\n        if (isContract(_to)) {\\n            contractFallback(_to, _value, _data);\\n        }\\n        return true;\\n    }\\n\\n    // PRIVATE\\n\\n    function contractFallback(address _to, uint256 _value, bytes _data) private {\\n        ERC677Receiver receiver = ERC677Receiver(_to);\\n        require(receiver.onTokenTransfer(msg.sender, _value, _data));\\n    }\\n\\n    // assemble the given address bytecode. If bytecode exists then the _addr is a contract.\\n    function isContract(address _addr) private view returns (bool hasCode) {\\n        uint length;\\n        assembly { length := extcodesize(_addr) }\\n        return length > 0;\\n    }\\n}\\n\\ncontract StandardToken is ERC20, BasicToken {\\n\\n    mapping (address => mapping (address => uint256)) allowed;\\n\\n    /**\\n    * @dev Transfer tokens from one address to another.\\n    * @param _from address The address which you want to send tokens from.\\n    * @param _to address The address which you want to transfer to.\\n    * @param _value uint256 the amout of tokens to be transfered.\\n    */\\n    function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {\\n        require(_to != address(0));\\n\\n        var _allowance = allowed[_from][msg.sender];\\n\\n        // Check is not needed because sub(_allowance, _value) will already throw if this condition is not met\\n        // require (_value <= _allowance);\\n\\n        balances[_to] = balances[_to].add(_value);\\n        balances[_from] = balances[_from].sub(_value);\\n        allowed[_from][msg.sender] = _allowance.sub(_value);\\n        Transfer(_from, _to, _value);\\n        return true;\\n    }\\n\\n    /**\\n    * @dev Aprove the passed address to spend the specified amount of tokens on behalf of msg.sender.\\n    * @param _spender address The address which will spend the funds.\\n    * @param _value uint256 The amount of tokens to be spent.\\n    */\\n    function approve(address _spender, uint256 _value) public returns (bool) {\\n        // To change the approve amount you first have to reduce the addresses`\\n        //  allowance to zero by calling `approve(_spender, 0)` if it is not\\n        //  already 0 to mitigate the race condition described here:\\n        //  https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n        require((_value == 0) || (allowed[msg.sender][_spender] == 0));\\n\\n        allowed[msg.sender][_spender] = _value;\\n        Approval(msg.sender, _spender, _value);\\n        return true;\\n    }\\n\\n    /**\\n    * @dev Function to check the amount of tokens that an owner allowed to a spender.\\n    * @param _owner address The address which owns the funds.\\n    * @param _spender address The address which will spend the funds.\\n    * @return A uint256 specifing the amount of tokens still avaible for the spender.\\n    */\\n    function allowance(address _owner, address _spender) public constant returns (uint256 remaining) {\\n        return allowed[_owner][_spender];\\n    }\\n}\\n\\ncontract MDToken is StandardToken, ERC677Token, Ownable {\\n    using SafeMath for uint256;\\n\\n    // Token metadata\\n    string public constant name = \\\"Measurable Data Token\\\";\\n    string public constant symbol = \\\"MDT\\\";\\n    uint256 public constant decimals = 18;\\n    uint256 public constant maxSupply = 10 * (10**8) * (10**decimals); // 1 billion MDT\\n\\n    // 240 million MDT reserved for MDT team (24%)\\n    uint256 public constant TEAM_TOKENS_RESERVED = 240 * (10**6) * (10**decimals);\\n\\n    // 150 million MDT reserved for user growth (15%)\\n    uint256 public constant USER_GROWTH_TOKENS_RESERVED = 150 * (10**6) * (10**decimals);\\n\\n    // 110 million MDT reserved for early investors (11%)\\n    uint256 public constant INVESTORS_TOKENS_RESERVED = 110 * (10**6) * (10**decimals);\\n\\n    // 200 million MDT reserved for bonus giveaway (20%)\\n    uint256 public constant BONUS_TOKENS_RESERVED = 200 * (10**6) * (10**decimals);\\n\\n    // Token sale wallet address, contains tokens for private sale, early bird and bonus giveaway\\n    address public tokenSaleAddress;\\n\\n    // MDT team wallet address\\n    address public mdtTeamAddress;\\n\\n    // User Growth Pool wallet address\\n    address public userGrowthAddress;\\n\\n    // Early Investors wallet address\\n    address public investorsAddress;\\n\\n    // MDT team foundation wallet address, contains tokens which were not sold during token sale and unraised bonus\\n    address public mdtFoundationAddress;\\n\\n    event Burn(address indexed _burner, uint256 _value);\\n\\n    /// @dev Reverts if address is 0x0 or this token address\\n    modifier validRecipient(address _recipient) {\\n        require(_recipient != address(0) && _recipient != address(this));\\n        _;\\n    }\\n\\n    /**\\n    * @dev MDToken contract constructor.\\n    * @param _tokenSaleAddress address The token sale address.\\n    * @param _mdtTeamAddress address The MDT team address.\\n    * @param _userGrowthAddress address The user growth address.\\n    * @param _investorsAddress address The investors address.\\n    * @param _mdtFoundationAddress address The MDT Foundation address.\\n    * @param _presaleAmount uint256 Amount of MDT tokens sold during presale.\\n    * @param _earlybirdAmount uint256 Amount of MDT tokens to sold during early bird.\\n    */\\n    function MDToken(\\n        address _tokenSaleAddress,\\n        address _mdtTeamAddress,\\n        address _userGrowthAddress,\\n        address _investorsAddress,\\n        address _mdtFoundationAddress,\\n        uint256 _presaleAmount,\\n        uint256 _earlybirdAmount)\\n        public\\n    {\\n\\n        require(_tokenSaleAddress != address(0));\\n        require(_mdtTeamAddress != address(0));\\n        require(_userGrowthAddress != address(0));\\n        require(_investorsAddress != address(0));\\n        require(_mdtFoundationAddress != address(0));\\n\\n        tokenSaleAddress = _tokenSaleAddress;\\n        mdtTeamAddress = _mdtTeamAddress;\\n        userGrowthAddress = _userGrowthAddress;\\n        investorsAddress = _investorsAddress;\\n        mdtFoundationAddress = _mdtFoundationAddress;\\n\\n        // issue tokens to token sale, MDT team, etc\\n        uint256 saleAmount = _presaleAmount.add(_earlybirdAmount).add(BONUS_TOKENS_RESERVED);\\n        mint(tokenSaleAddress, saleAmount);\\n        mint(mdtTeamAddress, TEAM_TOKENS_RESERVED);\\n        mint(userGrowthAddress, USER_GROWTH_TOKENS_RESERVED);\\n        mint(investorsAddress, INVESTORS_TOKENS_RESERVED);\\n\\n        // issue remaining tokens to MDT Foundation\\n        uint256 remainingTokens = maxSupply.sub(totalSupply);\\n        if (remainingTokens > 0) {\\n            mint(mdtFoundationAddress, remainingTokens);\\n        }\\n    }\\n\\n    /**\\n    * @dev Mint MDT tokens. (internal use only)\\n    * @param _to address Address to send minted MDT to.\\n    * @param _amount uint256 Amount of MDT tokens to mint.\\n    */\\n    function mint(address _to, uint256 _amount)\\n        private\\n        validRecipient(_to)\\n        returns (bool)\\n    {\\n        require(totalSupply.add(_amount) <= maxSupply);\\n        totalSupply = totalSupply.add(_amount);\\n        balances[_to] = balances[_to].add(_amount);\\n\\n        Transfer(0x0, _to, _amount);\\n        return true;\\n    }\\n\\n    /**\\n    * @dev Aprove the passed address to spend the specified amount of tokens on behalf of msg.sender.\\n    * @param _spender address The address which will spend the funds.\\n    * @param _value uint256 The amount of tokens to be spent.\\n    */\\n    function approve(address _spender, uint256 _value)\\n        public\\n        validRecipient(_spender)\\n        returns (bool)\\n    {\\n        return super.approve(_spender, _value);\\n    }\\n\\n    /**\\n    * @dev Transfer token for a specified address.\\n    * @param _to address The address to transfer to.\\n    * @param _value uint256 The amount to be transferred.\\n    */\\n    function transfer(address _to, uint256 _value)\\n        public\\n        validRecipient(_to)\\n        returns (bool)\\n    {\\n        return super.transfer(_to, _value);\\n    }\\n\\n    /**\\n    * @dev Transfer token to a contract address with additional data if the recipient is a contact.\\n    * @param _to address The address to transfer to.\\n    * @param _value uint256 The amount to be transferred.\\n    * @param _data bytes The extra data to be passed to the receiving contract.\\n    */\\n    function transferAndCall(address _to, uint256 _value, bytes _data)\\n        public\\n        validRecipient(_to)\\n        returns (bool success)\\n    {\\n        return super.transferAndCall(_to, _value, _data);\\n    }\\n\\n    /**\\n    * @dev Transfer tokens from one address to another.\\n    * @param _from address The address which you want to send tokens from.\\n    * @param _to address The address which you want to transfer to.\\n    * @param _value uint256 the amout of tokens to be transfered.\\n    */\\n    function transferFrom(address _from, address _to, uint256 _value)\\n        public\\n        validRecipient(_to)\\n        returns (bool)\\n    {\\n        return super.transferFrom(_from, _to, _value);\\n    }\\n\\n    /**\\n     * @dev Burn tokens. (token owner only)\\n     * @param _value uint256 The amount to be burned.\\n     * @return always true.\\n     */\\n    function burn(uint256 _value)\\n        public\\n        onlyOwner\\n        returns (bool)\\n    {\\n        balances[msg.sender] = balances[msg.sender].sub(_value);\\n        totalSupply = totalSupply.sub(_value);\\n        Burn(msg.sender, _value);\\n        return true;\\n    }\\n\\n    /**\\n     * @dev Burn tokens on behalf of someone. (token owner only)\\n     * @param _from address The address of the owner of the token.\\n     * @param _value uint256 The amount to be burned.\\n     * @return always true.\\n     */\\n    function burnFrom(address _from, uint256 _value)\\n        public\\n        onlyOwner\\n        returns(bool)\\n    {\\n        var _allowance = allowed[_from][msg.sender];\\n        balances[_from] = balances[_from].sub(_value);\\n        allowed[_from][msg.sender] = _allowance.sub(_value);\\n        totalSupply = totalSupply.sub(_value);\\n        Burn(_from, _value);\\n        return true;\\n    }\\n\\n    /**\\n     * @dev Transfer to owner any tokens send by mistake to this contract. (token owner only)\\n     * @param token ERC20 The address of the token to transfer.\\n     * @param amount uint256 The amount to be transfered.\\n     */\\n    function emergencyERC20Drain(ERC20 token, uint256 amount)\\n        public\\n        onlyOwner\\n    {\\n        token.transfer(owner, amount);\\n    }\\n\\n    /**\\n     * @dev Change to a new token sale address. (token owner only)\\n     * @param _tokenSaleAddress address The new token sale address.\\n     */\\n    function changeTokenSaleAddress(address _tokenSaleAddress)\\n        public\\n        onlyOwner\\n        validRecipient(_tokenSaleAddress)\\n    {\\n        tokenSaleAddress = _tokenSaleAddress;\\n    }\\n\\n    /**\\n     * @dev Change to a new MDT team address. (token owner only)\\n     * @param _mdtTeamAddress address The new MDT team address.\\n     */\\n    function changeMdtTeamAddress(address _mdtTeamAddress)\\n        public\\n        onlyOwner\\n        validRecipient(_mdtTeamAddress)\\n    {\\n        mdtTeamAddress = _mdtTeamAddress;\\n    }\\n\\n    /**\\n     * @dev Change to a new user growth address. (token owner only)\\n     * @param _userGrowthAddress address The new user growth address.\\n     */\\n    function changeUserGrowthAddress(address _userGrowthAddress)\\n        public\\n        onlyOwner\\n        validRecipient(_userGrowthAddress)\\n    {\\n        userGrowthAddress = _userGrowthAddress;\\n    }\\n\\n    /**\\n     * @dev Change to a new investors address. (token owner only)\\n     * @param _investorsAddress address The new investors address.\\n     */\\n    function changeInvestorsAddress(address _investorsAddress)\\n        public\\n        onlyOwner\\n        validRecipient(_investorsAddress)\\n    {\\n        investorsAddress = _investorsAddress;\\n    }\\n\\n    /**\\n     * @dev Change to a new MDT Foundation address. (token owner only)\\n     * @param _mdtFoundationAddress address The new MDT Foundation address.\\n     */\\n    function changeMdtFoundationAddress(address _mdtFoundationAddress)\\n        public\\n        onlyOwner\\n        validRecipient(_mdtFoundationAddress)\\n    {\\n        mdtFoundationAddress = _mdtFoundationAddress;\\n    }\\n}\",\"keccak256\":\"0xe75e60055a0a5ae590db750d74df4ec4264cc5611843b04f8dabd4ae645ee942\"}},\"version\":1}",
+  "bytecode": "0x606060405234156200001057600080fd5b60405160e08062001cc48339810160405280805191906020018051919060200180519190602001805191906020018051919060200180519190602001805160038054600160a060020a03191633600160a060020a0390811691909117909155909250600091508190891615156200008657600080fd5b600160a060020a03881615156200009c57600080fd5b600160a060020a0387161515620000b257600080fd5b600160a060020a0386161515620000c857600080fd5b600160a060020a0385161515620000de57600080fd5b60048054600160a060020a0319908116600160a060020a038c8116919091179092556005805482168b84161790556006805482168a841617905560078054821689841617905560088054909116918716919091179055620001736aa56fa5b99019a5c80000006200015e8686640100000000620002a08102620016001704565b9064010000000062001600620002a082021704565b6004549092506200019c90600160a060020a03168364010000000062001760620002b782021704565b50600554620001ce90600160a060020a03166ac685fa11e01ec6f000000064010000000062001760620002b782021704565b506006546200020090600160a060020a03166a7c13bc4b2c133c5600000064010000000062001760620002b782021704565b506007546200023290600160a060020a03166a5afd67f2dc0e1b2e00000064010000000062001760620002b782021704565b506000546200025d906b033b2e3c9fd0803ce800000090640100000000620014e4620003d682021704565b9050600081111562000291576008546200028f90600160a060020a03168264010000000062001760620002b782021704565b505b505050505050505050620003e9565b600082820183811015620002b057fe5b9392505050565b600082600160a060020a03811615801590620002e5575030600160a060020a031681600160a060020a031614155b1515620002f157600080fd5b6000546b033b2e3c9fd0803ce8000000906200031c908564010000000062001600620002a082021704565b11156200032857600080fd5b60005462000345908464010000000062001600620002a082021704565b6000908155600160a060020a0385168152600160205260409020546200037a908464010000000062001600620002a082021704565b600160a060020a0385166000818152600160205260408082209390935590917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9086905190815260200160405180910390a35060019392505050565b600082821115620003e357fe5b50900390565b6118cb80620003f96000396000f30060606040526004361061017f5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663039b267d811461018457806306fdde03146101c0578063095ea7b31461024a5780631448b3ca1461028d57806318160ddd146102a057806323b872dd146102c55780632970c9c6146102fa57806330b823f71461030d578063313ce567146103205780633b6d05c7146103335780634000aea01461034657806342966c68146103b85780634693667a146103ce5780634c25deb5146103fc5780634fe2f0851461040f57806368c4eb741461042257806370a082311461044e57806379cc67901461047a5780637af8c4f2146104a95780638da5cb5b146104d557806394579680146104e857806395d89b4114610514578063a9059cbb14610527578063b7629dcb14610556578063cbcabc1314610569578063d5abeb0114610595578063db0e16f1146105a8578063dd62ed3e146105d7578063f1f732cb14610609578063f2fde38b1461061c575b600080fd5b341561018f57600080fd5b610197610648565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156101cb57600080fd5b6101d3610664565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561020f5780820151838201526020016101f7565b50505050905090810190601f16801561023c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561025557600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff6004351660243561069b565b604051901515815260200160405180910390f35b341561029857600080fd5b61019761070c565b34156102ab57600080fd5b6102b3610728565b60405190815260200160405180910390f35b34156102d057600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff6004358116906024351660443561072e565b341561030557600080fd5b6102b36107a1565b341561031857600080fd5b6101976107b0565b341561032b57600080fd5b6102b36107cc565b341561033e57600080fd5b6101976107d1565b341561035157600080fd5b6102796004803573ffffffffffffffffffffffffffffffffffffffff169060248035919060649060443590810190830135806020601f820181900481020160405190810160405281815292919060208401838380828437509496506107ed95505050505050565b34156103c357600080fd5b610279600435610857565b34156103d957600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610947565b005b341561040757600080fd5b6102b3610a14565b341561041a57600080fd5b6102b3610a23565b341561042d57600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610a32565b341561045957600080fd5b6102b373ffffffffffffffffffffffffffffffffffffffff60043516610aff565b341561048557600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff60043516602435610b27565b34156104b457600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610c7e565b34156104e057600080fd5b610197610d4b565b34156104f357600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610d67565b341561051f57600080fd5b6101d3610e34565b341561053257600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff60043516602435610e6b565b341561056157600080fd5b610197610ed4565b341561057457600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610ef0565b34156105a057600080fd5b6102b3610fbd565b34156105b357600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516602435610fcd565b34156105e257600080fd5b6102b373ffffffffffffffffffffffffffffffffffffffff600435811690602435166110aa565b341561061457600080fd5b6102b36110e2565b341561062757600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff600435166110f1565b60085473ffffffffffffffffffffffffffffffffffffffff1681565b60408051908101604052601581527f4d656173757261626c65204461746120546f6b656e0000000000000000000000602082015281565b60008273ffffffffffffffffffffffffffffffffffffffff8116158015906106ef57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156106fa57600080fd5b61070484846111b2565b949350505050565b60045473ffffffffffffffffffffffffffffffffffffffff1681565b60005481565b60008273ffffffffffffffffffffffffffffffffffffffff81161580159061078257503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b151561078d57600080fd5b610798858585611272565b95945050505050565b6ac685fa11e01ec6f000000081565b60065473ffffffffffffffffffffffffffffffffffffffff1681565b601281565b60055473ffffffffffffffffffffffffffffffffffffffff1681565b60008373ffffffffffffffffffffffffffffffffffffffff81161580159061084157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b151561084c57600080fd5b6107988585856113dc565b6003546000903373ffffffffffffffffffffffffffffffffffffffff90811691161461088257600080fd5b73ffffffffffffffffffffffffffffffffffffffff33166000908152600160205260409020546108b8908363ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff3316600090815260016020526040812091909155546108f2908363ffffffff6114e416565b60005573ffffffffffffffffffffffffffffffffffffffff33167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a2506001919050565b6003543373ffffffffffffffffffffffffffffffffffffffff90811691161461096f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff8116158015906109c157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156109cc57600080fd5b50600880547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b6a7c13bc4b2c133c5600000081565b6a5afd67f2dc0e1b2e00000081565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610a5a57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610aac57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610ab757600080fd5b50600780547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b73ffffffffffffffffffffffffffffffffffffffff1660009081526001602052604090205490565b60035460009081903373ffffffffffffffffffffffffffffffffffffffff908116911614610b5457600080fd5b5073ffffffffffffffffffffffffffffffffffffffff808416600081815260026020908152604080832033909516835293815283822054928252600190529190912054610ba7908463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff8516600090815260016020526040902055610bdd818463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff80861660009081526002602090815260408083203390941683529290529081209190915554610c27908463ffffffff6114e416565b60005573ffffffffffffffffffffffffffffffffffffffff84167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58460405190815260200160405180910390a25060019392505050565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610ca657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610cf857503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610d0357600080fd5b50600480547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b60035473ffffffffffffffffffffffffffffffffffffffff1681565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610d8f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610de157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610dec57600080fd5b50600680547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b60408051908101604052600381527f4d44540000000000000000000000000000000000000000000000000000000000602082015281565b60008273ffffffffffffffffffffffffffffffffffffffff811615801590610ebf57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610eca57600080fd5b61070484846114f6565b60075473ffffffffffffffffffffffffffffffffffffffff1681565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610f1857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610f6a57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610f7557600080fd5b50600580547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b6b033b2e3c9fd0803ce800000081565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610ff557600080fd5b60035473ffffffffffffffffffffffffffffffffffffffff8084169163a9059cbb9116836000604051602001526040517c010000000000000000000000000000000000000000000000000000000063ffffffff851602815273ffffffffffffffffffffffffffffffffffffffff90921660048301526024820152604401602060405180830381600087803b151561108b57600080fd5b6102c65a03f1151561109c57600080fd5b505050604051805150505050565b73ffffffffffffffffffffffffffffffffffffffff918216600090815260026020908152604080832093909416825291909152205490565b6aa56fa5b99019a5c800000081565b6003543373ffffffffffffffffffffffffffffffffffffffff90811691161461111957600080fd5b73ffffffffffffffffffffffffffffffffffffffff8116151561113b57600080fd5b600380547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff838116918217928390559091167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a350565b60008115806111f1575073ffffffffffffffffffffffffffffffffffffffff338116600090815260026020908152604080832093871683529290522054155b15156111fc57600080fd5b73ffffffffffffffffffffffffffffffffffffffff338116600081815260026020908152604080832094881680845294909152908190208590557f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60008073ffffffffffffffffffffffffffffffffffffffff8416151561129757600080fd5b5073ffffffffffffffffffffffffffffffffffffffff80851660009081526002602090815260408083203385168452825280832054938716835260019091529020546112e9908463ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff808616600090815260016020526040808220939093559087168152205461132b908463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff8616600090815260016020526040902055611361818463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff808716600081815260026020908152604080832033861684529091529081902093909355908616917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9086905190815260200160405180910390a3506001949350505050565b60006113e884846114f6565b15156113f357600080fd5b8373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f72db2339068fd324bbc28f2944e01064da539ac76064b6ce4a97a5f81de43dd6858560405182815260406020820181815290820183818151815260200191508051906020019080838360005b8381101561148657808201518382015260200161146e565b50505050905090810190601f1680156114b35780820380516001836020036101000a031916815260200191505b50935050505060405180910390a36114ca84611616565b156114da576114da84848461161e565b5060019392505050565b6000828211156114f057fe5b50900390565b600073ffffffffffffffffffffffffffffffffffffffff8316151561151a57600080fd5b73ffffffffffffffffffffffffffffffffffffffff3316600090815260016020526040902054611550908363ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff3381166000908152600160205260408082209390935590851681522054611592908363ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff80851660008181526001602052604090819020939093559133909116907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a350600192915050565b60008282018381101561160f57fe5b9392505050565b6000903b1190565b8273ffffffffffffffffffffffffffffffffffffffff811663a4c0ed363385856000604051602001526040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200180602001828103825283818151815260200191508051906020019080838360005b838110156116e75780820151838201526020016116cf565b50505050905090810190601f1680156117145780820380516001836020036101000a031916815260200191505b50945050505050602060405180830381600087803b151561173457600080fd5b6102c65a03f1151561174557600080fd5b50505060405180519050151561175a57600080fd5b50505050565b60008273ffffffffffffffffffffffffffffffffffffffff8116158015906117b457503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156117bf57600080fd5b6000546b033b2e3c9fd0803ce8000000906117e0908563ffffffff61160016565b11156117eb57600080fd5b6000546117fe908463ffffffff61160016565b600090815573ffffffffffffffffffffffffffffffffffffffff8516815260016020526040902054611836908463ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff85166000818152600160205260408082209390935590917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9086905190815260200160405180910390a350600193925050505600a165627a7a7230582035b48894dcc2f41c7474af6ef6b0fda4e2273c5581726a0eac7b6a282ec09e340029",
+  "deployedBytecode": "0x60606040526004361061017f5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663039b267d811461018457806306fdde03146101c0578063095ea7b31461024a5780631448b3ca1461028d57806318160ddd146102a057806323b872dd146102c55780632970c9c6146102fa57806330b823f71461030d578063313ce567146103205780633b6d05c7146103335780634000aea01461034657806342966c68146103b85780634693667a146103ce5780634c25deb5146103fc5780634fe2f0851461040f57806368c4eb741461042257806370a082311461044e57806379cc67901461047a5780637af8c4f2146104a95780638da5cb5b146104d557806394579680146104e857806395d89b4114610514578063a9059cbb14610527578063b7629dcb14610556578063cbcabc1314610569578063d5abeb0114610595578063db0e16f1146105a8578063dd62ed3e146105d7578063f1f732cb14610609578063f2fde38b1461061c575b600080fd5b341561018f57600080fd5b610197610648565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156101cb57600080fd5b6101d3610664565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561020f5780820151838201526020016101f7565b50505050905090810190601f16801561023c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561025557600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff6004351660243561069b565b604051901515815260200160405180910390f35b341561029857600080fd5b61019761070c565b34156102ab57600080fd5b6102b3610728565b60405190815260200160405180910390f35b34156102d057600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff6004358116906024351660443561072e565b341561030557600080fd5b6102b36107a1565b341561031857600080fd5b6101976107b0565b341561032b57600080fd5b6102b36107cc565b341561033e57600080fd5b6101976107d1565b341561035157600080fd5b6102796004803573ffffffffffffffffffffffffffffffffffffffff169060248035919060649060443590810190830135806020601f820181900481020160405190810160405281815292919060208401838380828437509496506107ed95505050505050565b34156103c357600080fd5b610279600435610857565b34156103d957600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610947565b005b341561040757600080fd5b6102b3610a14565b341561041a57600080fd5b6102b3610a23565b341561042d57600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610a32565b341561045957600080fd5b6102b373ffffffffffffffffffffffffffffffffffffffff60043516610aff565b341561048557600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff60043516602435610b27565b34156104b457600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610c7e565b34156104e057600080fd5b610197610d4b565b34156104f357600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610d67565b341561051f57600080fd5b6101d3610e34565b341561053257600080fd5b61027973ffffffffffffffffffffffffffffffffffffffff60043516602435610e6b565b341561056157600080fd5b610197610ed4565b341561057457600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516610ef0565b34156105a057600080fd5b6102b3610fbd565b34156105b357600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff60043516602435610fcd565b34156105e257600080fd5b6102b373ffffffffffffffffffffffffffffffffffffffff600435811690602435166110aa565b341561061457600080fd5b6102b36110e2565b341561062757600080fd5b6103fa73ffffffffffffffffffffffffffffffffffffffff600435166110f1565b60085473ffffffffffffffffffffffffffffffffffffffff1681565b60408051908101604052601581527f4d656173757261626c65204461746120546f6b656e0000000000000000000000602082015281565b60008273ffffffffffffffffffffffffffffffffffffffff8116158015906106ef57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156106fa57600080fd5b61070484846111b2565b949350505050565b60045473ffffffffffffffffffffffffffffffffffffffff1681565b60005481565b60008273ffffffffffffffffffffffffffffffffffffffff81161580159061078257503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b151561078d57600080fd5b610798858585611272565b95945050505050565b6ac685fa11e01ec6f000000081565b60065473ffffffffffffffffffffffffffffffffffffffff1681565b601281565b60055473ffffffffffffffffffffffffffffffffffffffff1681565b60008373ffffffffffffffffffffffffffffffffffffffff81161580159061084157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b151561084c57600080fd5b6107988585856113dc565b6003546000903373ffffffffffffffffffffffffffffffffffffffff90811691161461088257600080fd5b73ffffffffffffffffffffffffffffffffffffffff33166000908152600160205260409020546108b8908363ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff3316600090815260016020526040812091909155546108f2908363ffffffff6114e416565b60005573ffffffffffffffffffffffffffffffffffffffff33167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a2506001919050565b6003543373ffffffffffffffffffffffffffffffffffffffff90811691161461096f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff8116158015906109c157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156109cc57600080fd5b50600880547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b6a7c13bc4b2c133c5600000081565b6a5afd67f2dc0e1b2e00000081565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610a5a57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610aac57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610ab757600080fd5b50600780547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b73ffffffffffffffffffffffffffffffffffffffff1660009081526001602052604090205490565b60035460009081903373ffffffffffffffffffffffffffffffffffffffff908116911614610b5457600080fd5b5073ffffffffffffffffffffffffffffffffffffffff808416600081815260026020908152604080832033909516835293815283822054928252600190529190912054610ba7908463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff8516600090815260016020526040902055610bdd818463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff80861660009081526002602090815260408083203390941683529290529081209190915554610c27908463ffffffff6114e416565b60005573ffffffffffffffffffffffffffffffffffffffff84167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58460405190815260200160405180910390a25060019392505050565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610ca657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610cf857503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610d0357600080fd5b50600480547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b60035473ffffffffffffffffffffffffffffffffffffffff1681565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610d8f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610de157503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610dec57600080fd5b50600680547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b60408051908101604052600381527f4d44540000000000000000000000000000000000000000000000000000000000602082015281565b60008273ffffffffffffffffffffffffffffffffffffffff811615801590610ebf57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610eca57600080fd5b61070484846114f6565b60075473ffffffffffffffffffffffffffffffffffffffff1681565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610f1857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff811615801590610f6a57503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b1515610f7557600080fd5b50600580547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b6b033b2e3c9fd0803ce800000081565b6003543373ffffffffffffffffffffffffffffffffffffffff908116911614610ff557600080fd5b60035473ffffffffffffffffffffffffffffffffffffffff8084169163a9059cbb9116836000604051602001526040517c010000000000000000000000000000000000000000000000000000000063ffffffff851602815273ffffffffffffffffffffffffffffffffffffffff90921660048301526024820152604401602060405180830381600087803b151561108b57600080fd5b6102c65a03f1151561109c57600080fd5b505050604051805150505050565b73ffffffffffffffffffffffffffffffffffffffff918216600090815260026020908152604080832093909416825291909152205490565b6aa56fa5b99019a5c800000081565b6003543373ffffffffffffffffffffffffffffffffffffffff90811691161461111957600080fd5b73ffffffffffffffffffffffffffffffffffffffff8116151561113b57600080fd5b600380547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff838116918217928390559091167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a350565b60008115806111f1575073ffffffffffffffffffffffffffffffffffffffff338116600090815260026020908152604080832093871683529290522054155b15156111fc57600080fd5b73ffffffffffffffffffffffffffffffffffffffff338116600081815260026020908152604080832094881680845294909152908190208590557f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60008073ffffffffffffffffffffffffffffffffffffffff8416151561129757600080fd5b5073ffffffffffffffffffffffffffffffffffffffff80851660009081526002602090815260408083203385168452825280832054938716835260019091529020546112e9908463ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff808616600090815260016020526040808220939093559087168152205461132b908463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff8616600090815260016020526040902055611361818463ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff808716600081815260026020908152604080832033861684529091529081902093909355908616917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9086905190815260200160405180910390a3506001949350505050565b60006113e884846114f6565b15156113f357600080fd5b8373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f72db2339068fd324bbc28f2944e01064da539ac76064b6ce4a97a5f81de43dd6858560405182815260406020820181815290820183818151815260200191508051906020019080838360005b8381101561148657808201518382015260200161146e565b50505050905090810190601f1680156114b35780820380516001836020036101000a031916815260200191505b50935050505060405180910390a36114ca84611616565b156114da576114da84848461161e565b5060019392505050565b6000828211156114f057fe5b50900390565b600073ffffffffffffffffffffffffffffffffffffffff8316151561151a57600080fd5b73ffffffffffffffffffffffffffffffffffffffff3316600090815260016020526040902054611550908363ffffffff6114e416565b73ffffffffffffffffffffffffffffffffffffffff3381166000908152600160205260408082209390935590851681522054611592908363ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff80851660008181526001602052604090819020939093559133909116907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a350600192915050565b60008282018381101561160f57fe5b9392505050565b6000903b1190565b8273ffffffffffffffffffffffffffffffffffffffff811663a4c0ed363385856000604051602001526040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200180602001828103825283818151815260200191508051906020019080838360005b838110156116e75780820151838201526020016116cf565b50505050905090810190601f1680156117145780820380516001836020036101000a031916815260200191505b50945050505050602060405180830381600087803b151561173457600080fd5b6102c65a03f1151561174557600080fd5b50505060405180519050151561175a57600080fd5b50505050565b60008273ffffffffffffffffffffffffffffffffffffffff8116158015906117b457503073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614155b15156117bf57600080fd5b6000546b033b2e3c9fd0803ce8000000906117e0908563ffffffff61160016565b11156117eb57600080fd5b6000546117fe908463ffffffff61160016565b600090815573ffffffffffffffffffffffffffffffffffffffff8516815260016020526040902054611836908463ffffffff61160016565b73ffffffffffffffffffffffffffffffffffffffff85166000818152600160205260408082209390935590917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9086905190815260200160405180910390a350600193925050505600a165627a7a7230582035b48894dcc2f41c7474af6ef6b0fda4e2273c5581726a0eac7b6a282ec09e340029",
+  "devdoc": {
+    "methods": {
+      "allowance(address,address)": {
+        "details": "Function to check the amount of tokens that an owner allowed to a spender.",
+        "params": {
+          "_owner": "address The address which owns the funds.",
+          "_spender": "address The address which will spend the funds."
+        },
+        "return": "A uint256 specifing the amount of tokens still avaible for the spender."
+      },
+      "approve(address,uint256)": {
+        "details": "Aprove the passed address to spend the specified amount of tokens on behalf of msg.sender.",
+        "params": {
+          "_spender": "address The address which will spend the funds.",
+          "_value": "uint256 The amount of tokens to be spent."
+        }
+      },
+      "balanceOf(address)": {
+        "details": "Gets the balance of the specified address.",
+        "params": {
+          "_owner": "address The address to query the the balance of."
+        },
+        "return": "An uint256 representing the amount owned by the passed address."
+      },
+      "burn(uint256)": {
+        "details": "Burn tokens. (token owner only)",
+        "params": {
+          "_value": "uint256 The amount to be burned."
+        },
+        "return": "always true."
+      },
+      "burnFrom(address,uint256)": {
+        "details": "Burn tokens on behalf of someone. (token owner only)",
+        "params": {
+          "_from": "address The address of the owner of the token.",
+          "_value": "uint256 The amount to be burned."
+        },
+        "return": "always true."
+      },
+      "changeInvestorsAddress(address)": {
+        "details": "Change to a new investors address. (token owner only)",
+        "params": {
+          "_investorsAddress": "address The new investors address."
+        }
+      },
+      "changeMdtFoundationAddress(address)": {
+        "details": "Change to a new MDT Foundation address. (token owner only)",
+        "params": {
+          "_mdtFoundationAddress": "address The new MDT Foundation address."
+        }
+      },
+      "changeMdtTeamAddress(address)": {
+        "details": "Change to a new MDT team address. (token owner only)",
+        "params": {
+          "_mdtTeamAddress": "address The new MDT team address."
+        }
+      },
+      "changeTokenSaleAddress(address)": {
+        "details": "Change to a new token sale address. (token owner only)",
+        "params": {
+          "_tokenSaleAddress": "address The new token sale address."
+        }
+      },
+      "changeUserGrowthAddress(address)": {
+        "details": "Change to a new user growth address. (token owner only)",
+        "params": {
+          "_userGrowthAddress": "address The new user growth address."
+        }
+      },
+      "emergencyERC20Drain(address,uint256)": {
+        "details": "Transfer to owner any tokens send by mistake to this contract. (token owner only)",
+        "params": {
+          "amount": "uint256 The amount to be transfered.",
+          "token": "ERC20 The address of the token to transfer."
+        }
+      },
+      "transfer(address,uint256)": {
+        "details": "Transfer token for a specified address.",
+        "params": {
+          "_to": "address The address to transfer to.",
+          "_value": "uint256 The amount to be transferred."
+        }
+      },
+      "transferAndCall(address,uint256,bytes)": {
+        "details": "Transfer token to a contract address with additional data if the recipient is a contact.",
+        "params": {
+          "_data": "bytes The extra data to be passed to the receiving contract.",
+          "_to": "address The address to transfer to.",
+          "_value": "uint256 The amount to be transferred."
+        }
+      },
+      "transferFrom(address,address,uint256)": {
+        "details": "Transfer tokens from one address to another.",
+        "params": {
+          "_from": "address The address which you want to send tokens from.",
+          "_to": "address The address which you want to transfer to.",
+          "_value": "uint256 the amout of tokens to be transfered."
+        }
+      },
+      "transferOwnership(address)": {
+        "details": "Allows the current owner to transfer control of the contract to a newOwner.",
+        "params": {
+          "newOwner": "The address to transfer ownership to."
+        }
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

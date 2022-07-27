@@ -15,6 +15,10 @@
     "verify:mainnet": "hardhat --network mainnet etherscan-verify",
     "deploy:rinkeby": "npx hardhat deploy --network rinkeby --deploy-scripts ./deploy/rinkeby",
     "verify:rinkeby": "hardhat --network rinkeby etherscan-verify",
+    "deploy:bsc-mainnet": "npx hardhat deploy --network bsc-mainnet --deploy-scripts ./deploy/bsc-mainnet",
+    "verify:bsc-mainnet": "hardhat --network bsc-mainnet etherscan-verify",
+    "deploy:bsc-testnet": "npx hardhat deploy --network bsc-testnet --deploy-scripts ./deploy/bsc-testnet",
+    "verify:bsc-testnet": "hardhat --network bsc-testnet etherscan-verify",
     "merge": "sol-merger \"./contracts/**/*.sol\" ./merge"
   },
   "author": "",

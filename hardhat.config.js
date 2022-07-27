@@ -101,6 +101,18 @@ module.exports = {
       accounts: [`${PRIVATE_KEY}`],
       gasMultiplier: 1.5,
       deploy: ["deploy/rinkeby"],
+    },
+    "bsc-mainnet": {
+      url: "https://bsc-dataseed1.ninicoin.io/",
+      accounts: [`${PRIVATE_KEY}`],
+      gasMultiplier: 1.2,
+      deploy: ["deploy/bsc-mainnet"],
+    },
+    "bsc-testnet": {
+      url: "https://data-seed-prebsc-2-s3.binance.org:8545/",
+      accounts: [`${PRIVATE_KEY}`],
+      gasMultiplier: 1.5,
+      deploy: ["deploy/bsc-testnet"],
     }
   },
   namedAccounts: {
