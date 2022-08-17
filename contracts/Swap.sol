@@ -15,7 +15,7 @@ contract Swap is Ownable, ReentrancyGuard {
     IERC20 public mdtToken; // Address of MDT token contract
     IERC20 public xcnToken; // Address of XCN token contract
 
-    uint256 public mdtPrice = 0.5 ether;
+    uint256 public mdtPrice = 1000000000000000000; // 1 XCN = 1 MDT
     uint256 public constant PRICE_DECIMALS = 18;
 
     event NewSwap(address indexed addr, uint256 indexed mdtAmount, uint256 indexed xcnAmount);
