@@ -71,7 +71,7 @@ describe("MDT->XCN Swap Test", function () {
     ).to.be.revertedWith("SafeERC20: low-level call failed");
 
     // send xcn balance to the contract
-    await info.xcn.connect(info.deployerSigner).transfer(info.swap.address, ethers.utils.parseEther('0.5'));
+    await info.xcn.connect(info.deployerSigner).transfer(info.swap.address, ethers.utils.parseEther('1'));
     // swap error: mdt not approved
     await expect(
       info.swap.connect(info.member1Signer).swap(ethers.utils.parseEther('1'))
@@ -83,19 +83,7 @@ describe("MDT->XCN Swap Test", function () {
     await expect(
       info.swap.connect(info.member1Signer).swap(ethers.utils.parseEther('1'))
     ).to.be.emit(info.swap, "NewSwap");
-    expect(await info.mdt.balanceOf(info.swap.address)).to.equal(ethers.utils.parseEther('1'));
+    expect(await info.mdt.balanceOf("0x000000000000000000000000000000000000dEaD")).to.equal(ethers.utils.parseEther('1'));
     expect(await info.xcn.balanceOf(info.swap.address)).to.equal(ethers.utils.parseEther('0'));
-
-    // withdraw test
-    await expect(
-      info.swap.connect(info.member1Signer).withdraw()
-    ).to.be.revertedWith("Ownable: caller is not the owner");
-    await expect(
-      info.swap.connect(info.deployerSigner).withdraw()
-    ).to.be.emit(info.swap, "Withdraw");
-    expect(await info.mdt.balanceOf(info.swap.address)).to.equal(ethers.utils.parseEther('0'));
-    await expect(
-      info.swap.connect(info.deployerSigner).withdraw()
-    ).to.be.revertedWith("No balance");
   });
 });
