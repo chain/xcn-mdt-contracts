@@ -3,7 +3,7 @@ const { web3 } = require("hardhat");
 const deployed = {
   mdt: "0xD70415DA29074539643b91d08d00608411Ef9e38",
   xcn: "0x33D9969F0C5d5a98523d2ce15056C61F85f37eD3",
-  swap: "0x2FD7BFC63C6669a8876323c43930f77f6E6a92B4",
+  swap: "0xD073e9dADC01bBc4710573bC5fc1E0b04f64EA9A",
 };
 
 const func = async function (hre) {

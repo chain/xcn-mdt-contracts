@@ -109,7 +109,7 @@ module.exports = {
       deploy: ["deploy/bsc-mainnet"],
     },
     "bsc-testnet": {
-      url: "https://data-seed-prebsc-2-s3.binance.org:8545/",
+      url: "https://data-seed-prebsc-1-s3.binance.org:8545/",
       accounts: [`${PRIVATE_KEY}`],
       gasMultiplier: 1.5,
       deploy: ["deploy/bsc-testnet"],
